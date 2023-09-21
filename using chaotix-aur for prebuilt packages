@@ -14,3 +14,13 @@ pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst
 Append (adding to the end of the file) to /etc/pacman.conf:
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
+
+
+
+Some handy links
+Telegram channel with news and updates: @chaotic_aur
+Community group for on- and offtopics: @chaotic_aur_sac - feel free to come by! 😊
+Package list: Pkgs.org
+Status page: Status monitoring
+Latest logs: Logfiles
+Chaotic keys: Keyring
