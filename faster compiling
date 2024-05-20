@@ -1,6 +1,6 @@
 How to compile stuff with all cores/threads
 
-Check how many threads your processor cores have with:
+Check how many threads your processor cores has with:
 
 lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
 
