@@ -18,4 +18,4 @@ now add or edit this file with the number of your threads.
 
 MAKEFLAGS='-j12'
 
-/etc/make.conf
+/etc/makepkg.conf
