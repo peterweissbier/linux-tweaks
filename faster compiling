@@ -1,21 +1,5 @@
-How to compile stuff with all cores/threads
+sudo nano /etc/makepkg.conf
 
-Check how many threads your processor cores has with:
+edit to
 
-lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
-
-output in my case:
-
-[kaatayra@deepcool ~]$ lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
-CPU(s):                             12
-Thread(s) per core:                 2
-Core(s) per socket:                 6
-Socket(s):                          1
-CPU(s) scaling MHz:                 59%
-
-that would mean that i have 12 threads which i can use for compiling. if you want to be a bit on the safe side use 11 threads to compile.
-now add or edit this file with the number of your threads. 
-
-MAKEFLAGS='-j12'
-
-/etc/makepkg.conf
+MAKEFLAGS="-j$(nproc)"
