@@ -24,3 +24,7 @@ Most packages available in this repo are automatically built from their respecti
 The primary building cluster is a node in UFSCar's datacenter which is hosted in São Carlos, São Paulo, Brazil.
 
 to install, follow the instructions on https://aur.chaotic.cx/
+
+## crontab example 
+
+@reboot ( sleep 90 ; sh /location/script.sh )
