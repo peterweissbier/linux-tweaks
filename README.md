@@ -25,14 +25,6 @@ The primary building cluster is a node in UFSCar's datacenter which is hosted in
 
 to install, follow the instructions on https://aur.chaotic.cx/
 
-## crontab installation & example
-
-download and install either from aur https://archlinux.org/packages/extra/x86_64/cronie/ or for other distros on github https://github.com/cronie-crond/cronie/
-
-sudo systemctl enable chronie
-
-@reboot ( sleep 90 ; sh /location/script.sh )
-
 ## run doublecommander as root
 
 uncheck "Allow only 1 copy of DC at a time" in Configuration >Options >Behavior
