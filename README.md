@@ -38,7 +38,7 @@ Name=DoubleCmd Root
 Comment=Double Commander is a cross platform open source file manager with two panels side by side.
 Terminal=false
 Icon=doublecmd
-Exec=gksudo doublecmd
+Exec=sudo doublecmd
 Type=Application
 Categories=Application;Utility;FileManager;
 
