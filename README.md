@@ -32,3 +32,22 @@ download and install either from aur https://archlinux.org/packages/extra/x86_64
 sudo systemctl enable chronie
 
 @reboot ( sleep 90 ; sh /location/script.sh )
+
+## run doublecommander as root
+
+uncheck "Allow only 1 copy of DC at a time" in Configuration >Options >Behavior
+
+1. Open /usr/share/applications/doublecmd.desktop
+2. Save as /usr/share/applications/root-doublecmd.desktop
+3. Change the contents as follows:
+
+[Desktop Entry]
+Name=DoubleCmd Root
+Comment=Double Commander is a cross platform open source file manager with two panels side by side.
+Terminal=false
+Icon=doublecmd
+Exec=gksudo doublecmd
+Type=Application
+Categories=Application;Utility;FileManager;
+
+drag the new created root-doublecmd.desktop to the taskbar as a launcher
