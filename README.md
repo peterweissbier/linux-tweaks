@@ -5,14 +5,13 @@ at the bottom of the file add:
 <your username> ALL=(ALL) NOPASSWD: ALL
 
 ## faster compiling
-lscpu
-to check your number of cpu threads
+use the command >>nproc<< to check your number of cpu threads
+to be on the safe side use like 2-4 threads less for compiling
+example
+now edit your makepkg.conf
 sudo nano /etc/makepkg.conf
-edit to
-MAKEFLAGS="-j$(nproc)"
-
-for weaker CPUs you can try and put a value that is half of the number of threads of your core, like for example
-#MAKEFLAGS="-j6"
+edit it to the desired # of threads e.g.
+MAKEFLAGS="-j10(nproc)"
 
 ## import any recv key
 gpg --recv-keys 893e8e9432898e
