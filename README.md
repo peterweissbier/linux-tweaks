@@ -10,7 +10,7 @@
 3. now edit your makepkg.conf
 4. sudo nano /etc/makepkg.conf
 5. edit it to the desired # of threads e.g.
-  MAKEFLAGS="-j10(nproc)"
+    MAKEFLAGS="-j10(nproc)"
 
 ## import any recv key
 gpg --recv-keys 893e8e9432898e
