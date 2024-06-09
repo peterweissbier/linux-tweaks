@@ -1,17 +1,16 @@
 ## remove password prompt from pacman, pamac, aliases or aur helpers (yay, paru)
-sudo -i
-sudo nano /etc/sudoers
-at the bottom of the file add:
-<your username> ALL=(ALL) NOPASSWD: ALL
+1. sudo -i
+2. sudo nano /etc/sudoers
+3. at the bottom of the file add:
+4. <your username> ALL=(ALL) NOPASSWD: ALL
 
 ## faster compiling
-use the command >>nproc<< to check your number of cpu threads
-to be on the safe side use like 2-4 threads less for compiling
-example
-now edit your makepkg.conf
-sudo nano /etc/makepkg.conf
-edit it to the desired # of threads e.g.
-MAKEFLAGS="-j10(nproc)"
+1. use the command >>nproc<< to check your number of cpu threads
+2. to be on the safe side use like 2-4 threads less for compiling
+3. now edit your makepkg.conf
+4. sudo nano /etc/makepkg.conf
+5. edit it to the desired # of threads e.g.
+  MAKEFLAGS="-j10(nproc)"
 
 ## import any recv key
 gpg --recv-keys 893e8e9432898e
