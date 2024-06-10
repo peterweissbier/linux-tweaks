@@ -1,6 +1,10 @@
-## pamac with flatpak & snap support
+## pamac with flatpak OR pamac with snap
 
-libpamac-full & dependencies
+## flatpak
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-flatpak</pre>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/libpamac-flatpak</pre>
+
+## snap
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/snapd</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/snapd-glib</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/libpamac-full</pre>
