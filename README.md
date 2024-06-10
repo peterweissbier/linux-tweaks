@@ -19,7 +19,7 @@
 1. sudo -i
 2. sudo nano /etc/sudoers
 3. at the bottom of the file add:
-4. <your username> ALL=(ALL) NOPASSWD: ALL
+4. "your username" ALL=(ALL) NOPASSWD: ALL
 
 ## faster compiling
 1. use the command >>nproc<< to check your number of cpu threads
