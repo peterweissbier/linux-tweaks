@@ -1,3 +1,8 @@
+## pamac with flatpak & snap support
+
+https://aur.archlinux.org/packages/pamac-all
+https://aur.archlinux.org/pamac-all.git
+
 ## remove password prompt from pacman, pamac, aliases or aur helpers (yay, paru)
 1. sudo -i
 2. sudo nano /etc/sudoers
