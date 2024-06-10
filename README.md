@@ -9,10 +9,10 @@
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/snapd-glib</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/libpamac-full</pre>
 
-pamac-cli
+## pamac-cli
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-cli</pre>
 
-pamac-all
+## pamac-all
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/pamac-all.git</pre>
 
 ## remove password prompt from pacman, pamac, aliases or aur helpers (yay, paru)
