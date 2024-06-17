@@ -1,8 +1,11 @@
 ## pamac with flatpak
-        https://aur.archlinux.org/packages/pamac-flatpak
-        https://aur.archlinux.org/packages/libpamac-flatpak
-        https://aur.archlinux.org/packages/pamac-cli
-        https://aur.archlinux.org/pamac-all.git
+https://aur.archlinux.org/packages/pamac-flatpak
+
+https://aur.archlinux.org/packages/libpamac-flatpak
+
+https://aur.archlinux.org/packages/pamac-cli
+
+https://aur.archlinux.org/pamac-all.git
 
 ## faster compiling
 1. use the command >>nproc<< to check your number of cpu threads
