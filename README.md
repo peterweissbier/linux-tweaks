@@ -1,11 +1,7 @@
 ## pamac with flatpak
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-flatpak</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/libpamac-flatpak</pre>
-
-## pamac-cli
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-cli</pre>
-
-## pamac-all
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/pamac-all.git</pre>
 
 ## remove password prompt from pacman, pamac, aliases or aur helpers (yay, paru)
