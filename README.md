@@ -4,12 +4,6 @@
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-cli</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/pamac-all.git</pre>
 
-## remove password prompt from pacman, pamac, aliases or aur helpers (yay, paru)
-1. sudo -i
-2. sudo nano /etc/sudoers
-3. at the bottom of the file add:
-4. "your username" ALL=(ALL) NOPASSWD: ALL
-
 ## faster compiling
 1. use the command >>nproc<< to check your number of cpu threads
 2. to be on the safe side use like 2-4 threads less for compiling
@@ -18,7 +12,7 @@
 5. edit it to the desired # of threads e.g.
         MAKEFLAGS="-j10(nproc)"
 
-## import any recv key
+## manually import a specific recv key
 gpg --recv-keys 893e8e9432898e
 
 ## chaotix-aur for prebuilt packages
@@ -46,4 +40,4 @@ Exec=sudo doublecmd
 Type=Application
 Categories=Application;Utility;FileManager;
 
-drag the new created root-doublecmd.desktop to the taskbar as a launcher
+drag the new created root-doublecmd.desktop to the taskbar to use it as a launcher
