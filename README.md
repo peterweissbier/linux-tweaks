@@ -1,6 +1,4 @@
 ## pamac with flatpak
-
-## flatpak
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/pamac-flatpak</pre>
 <pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">https://aur.archlinux.org/packages/libpamac-flatpak</pre>
 
