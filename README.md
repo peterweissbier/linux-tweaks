@@ -18,13 +18,13 @@ https://aur.archlinux.org/pamac-all.git
 ## manually import a specific recv key
 gpg --recv-keys 893e8e9432898e
 
-## chaotix-aur for prebuilt packages
+## [chaotix-aur for prebuilt packages](https://aur.chaotic.cx/)
 What it is
 
 Most packages available in this repo are automatically built from their respective AUR source package. However, there are a few exceptions, check out the packages repo to find out which ones.
 The primary building cluster is a node in UFSCar's datacenter which is hosted in São Carlos, São Paulo, Brazil.
 
-to install, follow the instructions on https://aur.chaotic.cx/
+to install, follow the instructions on the website
 
 ## run doublecommander as root
 
