@@ -34,13 +34,8 @@ uncheck "Allow only 1 copy of DC at a time" in Configuration >Options >Behavior
 2. Save as /usr/share/applications/root-doublecmd.desktop
 3. Change the contents as follows:
 
-[Desktop Entry]
-Name=DoubleCmd Root
-Comment=Double Commander is a cross platform open source file manager with two panels side by side.
-Terminal=false
-Icon=doublecmd
+Name=Double Commander Root
+
 Exec=sudo doublecmd
-Type=Application
-Categories=Application;Utility;FileManager;
 
 drag the new created root-doublecmd.desktop to the taskbar to use it as a launcher
