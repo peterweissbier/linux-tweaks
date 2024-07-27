@@ -38,4 +38,8 @@ Name=Double Commander Root
 
 Exec=sudo doublecmd
 
-drag the new created root-doublecmd.desktop to the taskbar to use it as a launcher
+sudo visudo and add the following line
+
+yourusername ALL = NOPASSWD: /usr/bin/doublecmd
+
+add the created root-doublecmd.desktop to the desktop/taskbar to use it as a launcher
