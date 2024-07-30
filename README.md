@@ -1,12 +1,3 @@
-## pamac with flatpak
-https://aur.archlinux.org/packages/pamac-flatpak
-
-https://aur.archlinux.org/packages/libpamac-flatpak
-
-https://aur.archlinux.org/packages/pamac-cli
-
-https://aur.archlinux.org/pamac-all.git
-
 ## faster compiling
 1. use the command >>nproc<< to check your number of cpu threads
 2. to be on the safe side use like 2-4 threads less for compiling
@@ -38,7 +29,7 @@ Name=Double Commander Root
 
 Exec=sudo doublecmd
 
-sudo visudo and add the following line
+sudo nano /etc/sudoers and add the following line
 
 yourusername ALL = NOPASSWD: /usr/bin/doublecmd
 
